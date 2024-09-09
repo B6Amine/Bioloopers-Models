@@ -18,7 +18,7 @@ model_option = st.sidebar.selectbox(
 )
 
 # Load the dataset for plotting (replace this with the actual path of your training dataset)
-df = pd.read_excel('C:/Users/Amine/Desktop/Training_Data_1000.xlsx')
+df = pd.read_excel('Training_Data_1000.xlsx')
 
 # Calculate weight loss
 df['weight_change'] = df['original_weight'] - df['weight_change']
